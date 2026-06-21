@@ -1,8 +1,12 @@
-*This project was created as part of the Robotics II course by Christian Gómez.*
+*This project was created as part of the Robotics II course by Christian Gómez and Enmanuel Capdevila.*
 
 # Social Robot
 
 Social Robot is an academic prototype of a three-degree-of-freedom social robot that uses a camera feed to detect facial landmarks, follow a face, imitate head movement, and present simple facial expressions. The Python application processes the webcam stream and sends motor positions and an expression code over serial communication to an Arduino sketch, which drives three servos and an 8×8 RGB LED matrix. When a happy expression is detected, the application can also play the included laughter audio.
+
+![Social Robot prototype](1643152115706.jpg)
+
+[Watch a prototype demonstration](20220125_172849.mp4)
 
 ## Main implementation
 
